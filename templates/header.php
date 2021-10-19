@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <!-- Scrits -->
-    <script src="../assets/js/script.js"></script>
+    <?php js_file( 'script' )?>
     <!-- Styles -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <?php css_file( 'style' )?>
 </head>
