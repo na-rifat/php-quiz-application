@@ -1,0 +1,20 @@
+{
+    "name": "rafalo/quiz",
+    "description": "Quiz system in PHP",
+    "type": "project",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Nura Alam Rifat",
+            "email": "nuraalamrifat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "rafalo\\quiz\\": "classes"
+        },
+        "files": []
+    }
+}
