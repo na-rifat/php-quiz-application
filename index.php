@@ -1,5 +1,5 @@
 <?php include __DIR__ . '/templates/header.php'?>
 <body>
-    <?php var_dump( ABSPATH )?>
+    <?php //print_r( $_SERVER )?>
 </body>
 <?php include __DIR__ . '/templates/footer.php'?>

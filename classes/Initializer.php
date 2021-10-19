@@ -9,8 +9,13 @@ class Initializer {
     }
 
     public function define_constants() {
-        // define( 'ABS_URL', basename( $_SERVER['REQUEST_URI'] ) );
-        define( 'ABSPATH', __DIR__ . '/../' );
+        $protocol   = $_SERVER['REQUEST_SCHEME'] . '://';
+        $host       = $_SERVER['HTTP_HOST'] . '/';
+        $parent_url = $protocol . $host;
+
+        define( 'ABS_URL', $parent_url );
+        define( 'ABS_PATH', $_SERVER['DOCUMENT_ROOT'] . '/quiz/' );
+        
     }
 
     public function manage_requests() {

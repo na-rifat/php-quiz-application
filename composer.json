@@ -15,6 +15,8 @@
         "psr-4": {
             "rafalo\\quiz\\": "classes"
         },
-        "files": []
+        "files": [
+            "functions/helper.php"
+        ]
     }
 }
