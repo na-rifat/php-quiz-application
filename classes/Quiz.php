@@ -18,4 +18,5 @@ class Quiz {
     public static function generate_quizes( $quiz_id ) {
 
     }
+    
 }

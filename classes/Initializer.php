@@ -26,6 +26,7 @@ class Initializer {
 
         define( 'ABS_URL', $parent_url );
         define( 'ABS_PATH', $_SERVER['DOCUMENT_ROOT'] . '/quiz/' );
+        define( 'TEMPLATE_PATH', ABS_PATH . '/templates/' );
 
     }
 

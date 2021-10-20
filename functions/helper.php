@@ -31,3 +31,29 @@ if ( ! function_exists( 'js_file' ) ) {
         );
     }
 }
+
+if ( ! function_exists( 'quiz_header' ) ) {
+    /**
+     * Echo the header
+     *
+     * @return void
+     */
+    function quiz_header() {
+        ob_start();
+        include __DIR__ . '../templates/header.php';
+        echo ob_get_clean();
+    }
+}
+
+if ( ! function_exists( 'quiz_footer' ) ) {
+    /**
+     * Echo the footer
+     *
+     * @return void
+     */
+    function quiz_footer() {
+        ob_start();
+        include __DIR__ . '../templates/footer.php';
+        echo ob_get_clean();
+    }
+}
